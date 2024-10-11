@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+}
+.bodyCon {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin: auto;
+    transform: translateY(160px);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bodyCon h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+.bodyCon p {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+}
+
+.FirstClick ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.FirstClick li:first-child {
+    font-size: 35px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+}
+
+.FirstClick a:first-child {
+    text-decoration: none;
+    color: #fff;   
+}
+
+
+.FirstClick li:last-child {
+    font-size: 35px;
+    height: 50px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+}
+
+.FirstClick a:last-child {
+    text-decoration: none;
+    color: #fff;   
+}
+
+.SecondClick ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SecondClick li:first-child {
+    font-size: 35px;
+    height: 50px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+}
+
+.SecondClick a:first-child {
+    text-decoration: none;
+    color: #fff;   
+}
+
+
+.SecondClick li:last-child {
+    font-size: 35px;
+    height: 50px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+}
+
+.SecondClick a:last-child {
+    text-decoration: none;
+    color: #fff;   
+}
+
+.Result {
+    text-align: left;
+    display: flex;
+    /* margin-left: -20px; */
+}
